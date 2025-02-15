@@ -18,5 +18,9 @@
       "CLOUDINARY_NAME": "dxexontm2",
       "CLOUDINARY_API_KEY": "742512767377114",
       "CLOUDINARY_API_SECRET": "_byPX4htxuzY4fuYtgMbrKuoGt0"
-    }
+    },
+ "functions": {
+    "server.js": {
+      "maxDuration": 30
+    },
   }
