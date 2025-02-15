@@ -2,6 +2,7 @@ const Blog = require("../models/Blog");
 const cloudinary = require("../config/cloudinary");
 
 exports.getAllBlogs = async (req, res) => {
+  console.log("hii")
   try {
     const blogs = await Blog.find();
     res.status(200).json(blogs);
